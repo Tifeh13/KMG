@@ -14,6 +14,15 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+.logo{
+    font-family: "Poppins", sans-serif;
+    color:  hsl(200, 69%, 14%) ;
+    font-size: 30px;
+    font-size: 500;
+}
 :root {
 
     /**
