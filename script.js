@@ -38,6 +38,22 @@ for (let i = 0; i < navElemArr.length; i++) {
 }
 
 
+ // Get a reference to the button
+ const enquiryButton = document.getElementById('enquiryButton');
+
+ // Define the phone number
+ const phoneNumber = '+0123456789';
+
+ // Add a click event listener to the button
+ enquiryButton.addEventListener('click', () => {
+   // Create the SMS link
+   const smsLink = `sms:${phoneNumber}`;
+
+   // Open the messaging app
+   window.location.href = smsLink;
+ });
+
+
 
 /**
  * header active state
